@@ -1,0 +1,8 @@
+{
+  "source": "Illustrative API inventory. Replace paths with your own endpoints.",
+  "endpoints": [
+    {"method": "GET", "path": "/health", "expected": "public_or_context"},
+    {"method": "GET", "path": "/account/profile", "expected": "private_review"},
+    {"method": "POST", "path": "/account/update", "expected": "private_review"}
+  ]
+}

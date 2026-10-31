@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "charge": "/api/v1.0/users/wallet/charge",
+    "verify": "/api/v1.0/payments/verify",
+    "spend": "/api/v1.0/users/wallet/spend",
+    "state": "/__audit/state",
+    "settle": "/__audit/gateway-settle"
+  }
+}
